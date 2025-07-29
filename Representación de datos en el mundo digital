@@ -4,5 +4,6 @@
 - 5433 daros punto flotante 
 - 3434 datos enteros
 
-52383/1024= 51,122 KB.
-(32 bits= 4 bytes) 
+**caracteres**: 52383/1024= 51,122 KB.
+**Datos punto flotante**: (32 bits= 4 bytes) 5433*4= 21,732/1024= 21,222 KB
+**Datos enteros**: 
