@@ -1,0 +1,12 @@
+- **Explica, en tus propias palabras, por qué es necesario que las computadoras representen los datos en binario.**:
+Las computadoras manejan un lenguaje binario que hace mucho más sencillo el manejo de dichos datos, por la composición de la misma computadora, es económico, sencillo, eficiente y la base de practicamente toda operación.
+
+- **Convierte el número binario 10011011 a decimal y a hexadecimal.**:
+A decimal: 1 0 0 1 1 0 1 1  128+0+0+16+8+0+2+1= **155**
+A hexadecimal: 1001 1011: lo que da 9B
+
+- ** investiga y describe cómo se representa una imagen en formato PNG en el disco.**:
+Una imagen en PNG  se representa en el disco como una secuencia de bytes estructurada en bloques o "chunks" siguiendo un formato estandarizado.
+
+- **¿Qué sucede si intentas almacenar un número mayor al que puede representar un byte (por ejemplo, 300)? ¿Cómo lo maneja Python?**:
+Python no lo permite, dado de que un byte puede almacenar hasta 256 combinacones y no excederse más que eso, pero se puede usar más de un byte
