@@ -1,6 +1,45 @@
-#Ejercicios
+# Ejercicios ACTIVIDAD ALGORITMOS
 
-##Ejercicio 3
+## Ejercicio 1
+Investiga cuáles son los símbolos que se utilizan para representar cada operación de un algorimo con un diagrama de flujo. Asegúrate de que la fuente es confiable, discute lo que encontraste con tus compañeros y con el profe. Cuando estés seguro/a de tener los símbolos correctos, consigna la información en la bitácora.
+
+### 2. Símbolo de Inicio / Final
+El símbolo de terminación marca el punto inicial o final del sistema. 
+
+![alt text](image-1.png)
+
+### 2. Símbolo de Acción o Proceso
+Un rectangulo solo puede representar un solo paso dentro de un proceso.
+
+![alt text](image-2.png)
+
+### 3. Símbolo del Documento Impreso
+Un documento o informe impreso.
+
+![alt text](image-3.png)
+
+### 4. Símbolo de Decisión o Ramificación
+Un punto de decisión o ramificación. Las líneas que representan diferentes decisiones surgen de diferentes puntos del diamante.
+
+![alt text](image-4.png)
+
+### 5. Símbolo de Entrada / Salida
+Representa el material o la información que entra o sale del sistema, como una orden del cliente (entrada) o un producto (salida).
+
+![alt text](image-5.png)
+
+### 6. Símbolo de Entrada Manual
+Representa un paso en el que se pide al usuario que introduzca la información manualmente.
+
+![alt text](image-6.png)
+
+
+## Ejercicio 2
+Analicemos el siguiente problema y representemos su solución mediante un algoritmo secuencial.
+
+Construye un algoritmo que, al recibir como datos **el ID** del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
+
+## Ejercicio 3
 - Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de Lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
 
 |Variables| Tipo| Comentario|
@@ -25,7 +64,7 @@ Fin
 
 ```
 
-![alt text] (diagrama1.PNG)
+![foto de diagrama] (diagrama1.PNG)
 
 4.  Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
 
@@ -92,7 +131,63 @@ Escribir "Costo total:", cotoalumno
 Fin
 
  ```
- 
+
+## Ejercicio de tarea:
+Se realiza un diagrama para determinar la edad actual, con los siguientes datos: Día, mes y año de nacimiento y el día, mes y año actual.
+
+
+
+# _Bucles_
+## Ejercicios:
+
+1. Se requiere un algoritmo para determinar, de N cantidades, cuántas son cero, cuántas son menores a cero, y cuántas son mayores a cero.
+Realice el diagrama de flujo y el pseudocódigo. Representarlo usando el cliclo apropiado.
+
+## Pseudocódigo
+
+```
+Inicio 
+Leer N
+Ceros = 0
+mayores = 0
+menores = 0
+Mientras N > 0: 
+ Leer cant
+ Si cant > 0
+   mayores= mayores + 1
+Si no
+    Si cant = 0
+      ceros = ceros + 1
+    Si no
+      menores = menores + 1
+    Fin si
+  Fin si
+  N = N - 1
+Fin Mientras
+Mostrar ceros, mayores, menores
+Fin
+
+```
+
+2. Calcular el Factorial de un número entero ingresado por el usuario.
+
+```
+Inicio
+Leer N
+Factorial = 1
+Mientras N > 0:
+  Factorial = N* (N - 1)
+    Si no
+      Si N < 0  
+       "Sin valor"
+    Fin si
+Fin Mientras
+Escribir "Factorial" Factorial
+Fin
+
+```
+
+
 
 
 
