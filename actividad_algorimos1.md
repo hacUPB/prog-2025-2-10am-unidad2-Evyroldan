@@ -188,7 +188,72 @@ Fin
 ```
 
 
+# Tarea de Bucles:
 
+Se requiere un algoritmo para obtener la estatura promedio de un grupo de personas, cuyo número de miembros se desconoce, el ciclo debe efectuarse siempre y cuando se tenga una estatura registrada. Realice el diagrama de flujo, el pseudocódigo y el diagrama N/S para representarlo, utilizando el ciclo apropiado.
 
+### Pseudocódigo
+ 
+1. arrojar el promedio cuando el usuario lo solicite
+ 
+```
+Inicio
+Escribir "Para acabar el conteo y obtener el promedio, presionar la tecla F."
+estatura_Total = 0
+personas = 0
+finconteo = 0
+Mientras finconteo ≠ F
+  Leer estatura
+  Si estatura ≠ F:
+    estaturaTot = estatura_Total + estatura
+    npersonas = personas + 1
+  FinSi
+  finconteo = estatura
+FinMientras
+estaturaProm = estaturaTotal / personas
+Escribir estaturaProm
+Fin
+ 
+```
+ 
+2. arroja el promedio mediante el usuario va metiendo datos, pero no tiene fin
+ 
+```
+Inicio
+estaturaTot = 0
+npersonas = 0
+Mientras estaturaTot >= 0
+  leer estatura
+  estaturaTot = estaturaTot + estatura
+  npersonas = npersonas + 1
+  estaturaProm = estaturaTot / npersonas
+  Escribir estaturaprom
+FinMientras
+Fin  
+```
+ 
+### 2. Consultar cómo funcionan las tarjetas de crédito. Asumir una tasa de interés fija (2%). Preguntar al usuario el valor de la compra y el número de cuotas. Calcular y mostrar en pantalla. El valor de cada una de las cuotas que debe pagar hasta saldar la deuda.
+ 
+#### Tarjetas de crédito:
+- Cuando compras algo con tarjeta de crédito, no pagas todo al instante, sino que pagas en cuotas (mensuales generalmente).
+ 
+- Si pagas todo en el mes, no te cobran intereses.
+ 
+- Si decides pagar en cuotas, te cobran un interés fijo o variable sobre el saldo que tienes.
+ 
+- El interés se aplica sobre el monto total de la compra para calcular cuánto debes pagar en total.
+ 
+#### Pseudocódigo
+ 
+```
+Inicio
+tasa = 0.02
+Leer valor_compra, número_cuotas
+totalintereses = valorcompra * tasa * ncuotas
+totalpagar = valorcompra + totalintereses
+valorCuota = totalpagar / ncuotas
+Escribir totalpagar, valorCuota
+Fin
 
-
+```
+ 
